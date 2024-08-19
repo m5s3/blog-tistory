@@ -23,7 +23,7 @@ jobs:
       - name: Commit README
         run: |
           git add .
-          git config --local user.email "devmyoungsoo@gmail.com" #본인주소
+          git config --local user.email "devmyoungsoo2@gmail.com" #본인주소
           git config --local user.name "m5s3" #본인주소
           git commit -m "Update README.md"
           git push
